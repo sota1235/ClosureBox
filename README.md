@@ -1,6 +1,8 @@
 ClosureBox
 ====
 
+[![npm version](https://badge.fury.io/js/closure-box.svg)](https://badge.fury.io/js/closure-box)
+
 Simple DI container with flow for Node.js
 
 ### Description
