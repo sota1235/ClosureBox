@@ -44,7 +44,11 @@ Just it.
 
 ### Install
 
-TBD
+```
+yarn add closure-box
+# or
+npm i -S closure-box
+```
 
 ### Contribution
 
