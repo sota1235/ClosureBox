@@ -42,6 +42,35 @@ const authService: AuthService = Container.get('services/auth-service');
 
 Just it.
 
+#### Strict mode
+
+If you want to check type of instance, you can do it with enabling strict mode.
+
+Firstly, please enable strict mode for Container instance.
+
+```javascript
+import Container from 'closure-box';
+
+Container.enableStrictMode();
+```
+
+Secondly, pass boolean value when set instance into Container.
+
+```javascript
+import UserRepository from 'repositories/user-repository';
+import Container from 'closure-box';
+
+Container
+  .set('repositories/user-repository', () => {
+    return new UserRepository();
+  }, true); // 3rd argument required
+```
+
+Completed!
+If you did it, Container check type of instance when **getting instance**.
+
+Container will compare instance obtained by registered function with instance obtained from key name.
+
 ### Install
 
 ```
