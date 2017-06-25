@@ -1,0 +1,23 @@
+{
+  "name": "closure-box",
+  "version": "0.0.1",
+  "description": "Simple DI container with flow",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sota1235/ClosureBox.git"
+  },
+  "keywords": [
+    "di",
+    "flow"
+  ],
+  "author": "sota1235",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sota1235/ClosureBox/issues"
+  },
+  "homepage": "https://github.com/sota1235/ClosureBox#readme"
+}
